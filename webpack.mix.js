@@ -1,6 +1,7 @@
 let mix = require('laravel-mix');
 let CopyWebpackPlugin = require('copy-webpack-plugin');
 let Webpack = require('webpack');
+let BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 
 
@@ -29,7 +30,14 @@ mix.webpackConfig({
         new Webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'
-        })
+        }),
+
+        new BrowserSyncPlugin({
+            host: 'localhost',
+            port: 3000,
+            server: { baseDir: ['dist'] },
+            files: ['src/**/*.html', 'src/sass/**/*.scss', 'src/js/**/*.js']
+        }),
     ]
 });
 
