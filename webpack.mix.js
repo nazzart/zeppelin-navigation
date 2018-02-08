@@ -45,6 +45,9 @@ mix.js('src/js/app.js', 'dist/js')
    .sass('src/sass/app.scss', 'dist/css')
    .setPublicPath('dist')
    .autoload({jquery: ['$', 'window.jQuery']})
+   .options({
+       processCssUrls: false
+   });
 
 
 // Full API
