@@ -1,13 +1,14 @@
 # Webpack Starter Kit - the boilerplate which gives you a quick start for developing awesome projects!
 
 @author: Arturs Nazarovs
-@version: 1.0.0
+@version: 2.0.0
 
 ## Installation / Getting started
 
 - npm install
-- webpack run watch (for development / testing)
-- webpack run build (for production)
+- npm run dev (for development / testing)
+- npm run prod (for production)
+- npm run watch (to watch for a changes)
 - navigate to http://localhost:3000/ or wait when browser automaticaly will open the app.
 
 ## Features
@@ -21,7 +22,9 @@
 
 - Bootstrap is included.
 
+- EJS compiler to compile the templates
+
 - When running production all JS and CSS is compressed.
 
-- All assets (CSS, JS, fonts, images and .html) are stored to 'dist' folder after succesfull compilation.
+- All assets (CSS, JS, fonts, images and .html) are stored to 'public' folder after succesfull compilation.
 
