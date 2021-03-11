@@ -1,0 +1,47 @@
+/*
+  Theme main colors
+*/
+$color-gray-light: #ECECEC;
+$color-white: #ffffff;
+$color-dark: #000000;
+$color-primary-light: #FFCC00;
+
+/*
+  Font weight
+*/
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+
+/*
+  Global gap lengths
+*/
+$length-gap-huge: 45px;
+$length-gap-large: 30px;
+$length-gap-medium: 25px;
+$length-gap-small: 20px;
+$length-gap-tiny: 15px;
+$length-gap-mini: 10px;
+$length-gap-micro: 5px;
+$length-gap-nano: 2px;
+
+/**
+  Line heights
+ */
+$line-height-normal: 24px;
+
+/**
+  Font sizes
+ */
+$font-size-normal: 15px;
+
+/**
+ Screen breakpoints
+ */
+$tablet-width-portrait: 992px;
+$desktop-width-sm: 1024px;
+$desktop-width-md: 1440px;
+
+/**
+  Container width
+ */
+$container-width-md: 1315px;

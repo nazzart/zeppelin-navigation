@@ -18,13 +18,9 @@
 
 - Included BrowserSync
 
-- jQuery is already injected.
-
-- Bootstrap is included.
-
 - EJS compiler to compile the templates
 
-- When running production all JS and CSS is compressed.
+- When running production CSS is compressed.
 
-- All assets (CSS, JS, fonts, images and .html) are stored to 'public' folder after succesfull compilation.
+- All assets (CSS, images and .html) are stored to 'public' folder after successfull compilation.
 

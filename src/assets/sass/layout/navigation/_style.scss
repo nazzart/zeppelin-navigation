@@ -1,0 +1,146 @@
+// Custom styles for the Navigation and it's elements
+$navigation-height: 80px;
+$logo-width: 88px;
+$menu-item-letter-spacing: 1.25px;
+$menu-item-font-size: 14px;
+$icon-size: 26px;
+
+// Styles for the navigation
+.navigation {
+    background: $color-white;
+    height: $navigation-height;
+    width: 100%;
+}
+
+.navigation-left-side {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left-container {
+    background: $color-primary-light;
+    padding: $length-gap-mini $length-gap-tiny;
+    height: $length-gap-small;
+
+    .logo-left {
+        width: $logo-width;
+    }
+}
+
+.logo-right-container {
+    background: $color-dark;
+    padding: $length-gap-mini $length-gap-micro;
+    position: relative;
+
+    &:after {
+        content: '';
+        background-image: url('./img/logo-arrow-up.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        bottom: $length-gap-mini;
+        width: $length-gap-small - $length-gap-nano;
+        height: $length-gap-micro + $length-gap-nano;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .logo-right {
+        width: $length-gap-large;
+        vertical-align: middle;
+    }
+}
+
+.navigation-right-side {
+    display: flex;
+    align-items: center;
+    margin-right: $length-gap-large + $length-gap-micro;
+
+    .user-icon {
+        background-image:url('./img/user-icon.svg');
+        width: $icon-size;
+        height: $icon-size;
+        cursor: pointer;
+        position: relative;
+        top: $length-gap-nano;
+    }
+
+    .basket-icon {
+        background-image:url('./img/basket-icon.svg');
+        width: $icon-size;
+        height: $icon-size;
+        position: relative;
+        margin-right: $length-gap-small - $length-gap-nano;
+        cursor: pointer;
+        
+        .basket-item-count {
+            position: absolute;
+            width: $icon-size - $length-gap-nano;
+            height: $icon-size - $length-gap-nano;
+            background: $color-primary-light;
+            top: 0;
+            vertical-align: middle;
+            display: inline-block;
+            text-align: center;
+            font-style: normal;
+            right: -($length-gap-mini + $length-gap-nano);
+            font-size: $font-size-normal;
+            font-weight: $font-weight-bold;
+            line-height: $line-height-normal;
+
+            @include border-radius(50%);
+        }
+    }
+}
+
+// Styles for the Menu and it's links
+.menu {
+    margin: 0;
+    padding-left: $length-gap-large;
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    padding: $length-gap-mini ($length-gap-mini + $length-gap-nano);
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: $menu-item-letter-spacing;
+    font-size: $menu-item-font-size;
+
+    &:first-child {
+        padding: $length-gap-mini;
+    }
+}
+
+.menu-link {
+    text-decoration: none;
+    color: $color-dark;
+
+    &:hover {
+        &:after {
+            content: "";
+            position: absolute;
+            width: $length-gap-small - $length-gap-nano;
+            height: $length-gap-nano + $length-gap-nano;
+            background: $color-primary-light;
+            bottom: -21px;
+            left: 0;
+            margin: auto;
+            text-align: center;
+            right: 0;
+            opacity: 1;
+
+            @include border-radius($length-gap-nano * 2);
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-width-portrait) {
+    .menu {
+        display: none;
+    }
+}

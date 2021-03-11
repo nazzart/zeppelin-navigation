@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>streamline-icon-single-man-actions-check-2@24x24</title>
+    <g id="1440px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="streamline-icon-single-man-actions-check-2@24x24" transform="translate(1.000000, 1.000000)" stroke-width="1.5">
+            <path d="M23.5,17.5 C23.5,20.814 20.814,23.5 17.5,23.5 C14.186,23.5 11.5,20.814 11.5,17.5 C11.5,14.186 14.186,11.5 17.5,11.5" id="Path" stroke="#737373"></path>
+            <path d="M23.5,13 L18.03,18.469 C17.738,18.762 17.263,18.762 16.971,18.47 C16.971,18.47 16.97,18.469 16.97,18.469 L15.25,16.75" id="Path" stroke="#00B80A"></path>
+            <path d="M8.5,17.5 L0.5,17.5 C0.5,13.634 3.634,10.5 7.5,10.5 C8.841,10.5 10.155,10.885 11.283,11.61" id="Path" stroke="#737373"></path>
+            <path d="M3.838,2.592 C5.167,3.972 7.001,4.751 8.917,4.75000381 C9.878,4.751 10.829,4.555 11.711,4.175" id="Path" stroke="#737373"></path>
+            <path d="M7.5,0.5 C9.847,0.5 11.75,2.403 11.75,4.75 C11.75,7.097 9.847,9 7.5,9 C5.153,9 3.25,7.097 3.25,4.75 C3.25,2.403 5.153,0.5 7.5,0.5 Z" id="Path" stroke="#737373"></path>
+        </g>
+    </g>
+</svg>

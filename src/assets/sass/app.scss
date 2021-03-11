@@ -1,8 +1,12 @@
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+/*
+ Google fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-// Font awesome
-@import '~font-awesome/scss/font-awesome';
-
-// Custom
-@import 'layout/_common';
+/*
+  Import our styles
+ */
+@import 'abstracts/variables.scss';
+@import "abstracts/mixins";
+@import 'layout/common';
+@import 'layout/navigation/style';

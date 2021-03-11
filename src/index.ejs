@@ -1,47 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= htmlWebpackPlugin.options.title %></title>
-
     <link rel="stylesheet" href="assets/app.css">
 </head>
-
 <body>
-
-    <!-- BOF NAVBAR -->
+    <!-- Include Navbar -->
     <% include src/partials/navbar.ejs %>
-    <!-- EOF NAVBAR -->
-
-    <div class="container-fluid">
-        <div class="row">
-
-            <!-- BOF SIDEBAR -->
-            <% include src/partials/sidebar.ejs %>
-            <!-- EOF SIDEBAR -->
-
-            <!-- BOF MAIN-BODY -->
-            <main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-                <h2>Main section</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente velit rerum minus autem illo cupiditate,
-                    corrupti sequi similique nesciunt? Molestiae error est officia? Deleniti dolore amet animi saepe dignissimos!</p>
-            </main>
-            <!-- EOF MAIN-BODY -->
-
+    <!-- Body content start -->
+    <div class="container">
+        <div>
+            <h2>Main section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente velit rerum minus autem illo cupiditate, corrupti sequi similique nesciunt? Molestiae error est officia? Deleniti dolore amet animi saepe dignissimos!</p>
         </div>
-
-        <!-- BOF FOOTER -->
-        <% include src/partials/footer.ejs %>
-        <!-- EOF FOOTER -->
-
-    </div> <!-- END CONTAINER -->
-
-    <script src="assets/app.js"></script>
+    </div>
+    <!-- Body content end -->
 </body>
-
 </html>
