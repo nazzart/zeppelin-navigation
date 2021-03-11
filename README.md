@@ -1,4 +1,4 @@
-# A starter kit based on webpack and laravel-mix - the boilerplate which gives you a quick start for developing awesome projects!
+# Header navigation for the Zeppelin
 
 @author: Arturs Nazarovs
 @version: 2.0.0
